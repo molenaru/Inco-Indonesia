@@ -339,6 +339,10 @@ ol {
   height: auto;
   display: flex;
   align-items: center;
+}
+
+.tentang-atas .brandtitle, .tentang-atas .subject {
+  padding-left: 30px;
   padding-right: 30px;
 }
 
