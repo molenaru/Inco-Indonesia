@@ -205,7 +205,7 @@ ul .navv{
 
  .carousel-inner {
   position: relative;
-  width: 100%;
+  width: 500px;
   overflow: hidden;
 }
 
@@ -452,20 +452,11 @@ ol {
 }
 
 
-.container-event {
-  margin: 10px 0 10px; /* Center the container horizontally */
-  padding: 20px;
-  display: flex; /* Use flexbox for layout */
-  align-items: center; /* Vertically align items */
-  align-content: center;
-  justify-content: center;
-  text-align: center;
-  flex-wrap: wrap;
-}
 
-.container-event2 {
+.container-event {
   margin: 10px 0 10px ; /* Center the container horizontally */
   padding: 20px;
+  height: 100%; 
   display: flex; /* Use flexbox for layout */
   align-items: center; /* Vertically align items */
   align-content: center;
@@ -553,13 +544,11 @@ ol {
   display: flex;
   align-items: center;
   flex-direction: column-reverse;
+  width: 100%;
+  height: 100%;
+  
 }
 
-.row2 {
-  display: flex;
-  flex-direction: column-reverse;
-  align-items: center;
-}
 
 /* Optional styling */
 .brandtitle {
@@ -612,7 +601,7 @@ ol {
   color: #03a9f5;
   font-weight: 500;
   font-size: 1.4em;
-  margin-bottom: 20px;
+  margin-bottom: 40px;
 }
 
 /* form */
@@ -725,20 +714,22 @@ ol {
 }
 
 .iconsosmed {
-  margin-left: -30px;
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
 .icon-sosmed {
-  margin-top: 40px;
+  margin: 40px 0 0;
+  
+  padding: 0;
   display: flex;
 }
 
 .icon-sosmed li {
   list-style: none;
-  margin-right: 15px;
+  margin-right: 8px;
+  margin-left: 8px; 
 }
 
 .icon-sosmed li a {
