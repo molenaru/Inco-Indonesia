@@ -40,9 +40,11 @@ ul .navv{
 
 .contactUs
 {
+  display: flex;
+  flex-direction: column;
   position: relative;
   width: 100%;
-  padding: 40%px 100%px;
+  padding: 20px;
 }
 
 .title
@@ -592,7 +594,6 @@ ol {
   "info form"
   "map map";
   grid-gap: 20px;
-  margin-top: 20px;
   padding: 20px;
 }
 .contact h3
@@ -600,7 +601,7 @@ ol {
   color: #03a9f5;
   font-weight: 500;
   font-size: 1.4em;
-  margin-bottom: 40px;
+  margin-bottom: 20px;
 }
 
 /* form */
@@ -1011,6 +1012,29 @@ button {
   .logo {
     max-width: 100px;
     height: auto;
+  }
+
+  .info .infoBox div span {
+    min-width: 35px;
+    height: 35px;
+  }
+  
+  
+  .info .infoBox div p{
+    font-size: 0.85em;
+  }
+
+  .contactUs {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    padding: 0 10px 20px;
+  }
+
+  .contact h3 {
+      font-size: 1.3em;
   }
 
 }
